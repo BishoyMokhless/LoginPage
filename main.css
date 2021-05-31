@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0; 
+    background-image: url(./images/back.jpg);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 99em;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {  
+    margin: 2em 0 1em 0;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: bolder;
+    display: block;  
+}
+
+.login-form {
+    margin: 0 auto 0 auto ; 
+    padding: 2em 1em 1em 1em ;
+    border-radius: 9px;
+    zoom: 130%;
+    align-items: center;
+    width: 170px ;
+    background: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+         
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.788);
+    padding-left: 5px;      
+}
+
+.image,.login-form{
+  margin: -2em auto -1em auto;
+       
+}
+img{ 
+  width: 60px;
+}
+
+input[type = text]{
+    border-radius: 10px;
+    padding: auto;
+    margin: 5px 0;
+    background-color:gray;
+    border-color: rgb(0, 0, 0);
+}   
+   
+input[type = password]{
+    border-radius: 10px;
+    margin: auto;
+    border-color: rgb(0, 0, 0);
+    background-color:gray;       
+       
+}
+   
+label,input[type= checkbox]{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border-color: rgb(0, 0, 0);
+    padding:-5rem;
+    margin: auto;
+}
+
+.form-midlle,.form-top{
+    margin: 4px;
+}
+   
+button{
+    width: 13em;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: 1rem;
+    background-color:rgb(0, 0, 0) ;
+    color: white;
+    font-weight: bolder;
+    text-align: center;      
+
+}
+   
+   

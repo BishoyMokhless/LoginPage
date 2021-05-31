@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+body{
+  font-family: 'Baloo Chettan 2', cursive;
+  background-image: url(./images/back2.jpg);
+   
+  background-size: 70rem;
+  color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: 99em; 
+    
+}
+table, th, td {
+  border: 0px;
+     
+}
+table{
+  border-spacing: 15px;
+  width: 50%;
+  margin: 10em auto; 
+}
+.form{
+  margin: 0 60px 0 30px ; 
+  border-radius: 9px;
+  align-items: center;
+  width: auto ;
+  background: rgba(255, 255, 255, 0.363);
+  border-radius: 20px; 
+       
+}
+button{
+  background-image: url("./images/home-button.png");
+  background-size: 4em;
+  background-color: rgba(24, 90, 90, 0);
+  background-repeat: no-repeat;
+  padding: 2em; 
+  border-radius: 20rem;
+  border:thin;
+}
+input[type=text]{
+  padding: 0.4em 1em;
+  margin: 5px 0;
+  background-color:rgba(252, 252, 252, 0.247);
+  border-color: rgb(255, 255, 255); 
+  border-radius: 10px;     
+  font-weight: bolder;
+}
+input[type= button]
+{
+  text-align: center;
+  font-weight: 800;
+  padding: 0.5em 3em;
+  margin-left: 2.5em;
+  background-color:rgba(247, 247, 247, 0.377);
+  border-color: rgba(255, 255, 255, 0.377);
+  border-radius: 10px;
+
+}
+p{
+   padding-left: 2.5em;
+   font-weight: bolder;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="formCSS.css"> 
+    <form  action="index.html">
+            <button  onclick="document.location = 'index.html'"> </button>
+    </form>
+</head>
+<body>
+     <div class="main">
+         <div class="form">
+             <form action="script.js">
+                <table class="form-table">
+                    <tr> 
+                        <TH>First Number:</TH> 
+                            <td> 
+                                <input type = "text"   id = "number1" >
+                             </td> 
+                    </tr>
+                    <TR> 
+                        <TH>Second Number:</TH> 
+                            <td> 
+                                <input type = "text"  id = "number2">
+                            </td> 
+                    </TR>
+                     
+                    <tr>
+                        <TH>Press to view the result:</TH> 
+                        <td> 
+                            <input type="button" id= "Divide"  value="Divide" onclick="divide()">                    
+                        </td> 
+                    
+                    </tr>
+                    <TR> 
+                        <TH>Result:</TH> 
+                            <td> 
+                                <p id = "res"></p>
+                            </td> 
+                    </TR>
+    
+                 </table>
+
+
+             </form>
+         </div>
+         
+     </div>
+    <script type="text/javascript">
+    function divide()
+    {
+        var num1 = document.getElementById("number1").value;
+        var num2 = document.getElementById("number2").value;
+        if(num2 == 0)
+        {
+            var result = "undefined";
+            document.getElementById("res").innerHTML = result;
+            alert("Please enter valid numbers");
+        }
+        else
+        {
+            var result = num1/num2;
+            document.getElementById("res").innerHTML = " value equal : " + result;
+        }
+                
+    }
+</script>
+
+</body>
+</html>
