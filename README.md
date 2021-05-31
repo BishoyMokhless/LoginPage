@@ -1,2 +1,2 @@
 # LoginPage
-##front-end project for a login page and a divide calcualtor
+## front-end project for a login page and a divide calcualtor
