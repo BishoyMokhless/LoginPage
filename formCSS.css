@@ -9,8 +9,8 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 100%;
-  background-size: 99em; 
+  height: 100vh;
+  background-size: cover;  
     
 }
 table, th, td {
